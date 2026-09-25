@@ -1,0 +1,138 @@
+<svg viewBox="0 0 1200 400" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Ocean Deep Gradient -->
+    <linearGradient id="deepOcean" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020817" />
+      <stop offset="30%" stop-color="#0a192f" />
+      <stop offset="70%" stop-color="#0c2d48" />
+      <stop offset="100%" stop-color="#020d1c" />
+    </linearGradient>
+
+    <!-- Neon Glows -->
+    <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="50%" stop-color="#4facfe" />
+      <stop offset="100%" stop-color="#00d2d3" />
+    </linearGradient>
+
+    <linearGradient id="goldGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f6d365" />
+      <stop offset="100%" stop-color="#fda085" />
+    </linearGradient>
+
+    <linearGradient id="indiaSaffron" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff9933" />
+      <stop offset="100%" stop-color="#ff7700" />
+    </linearGradient>
+
+    <radialGradient id="radarPulse" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.3" />
+      <stop offset="60%" stop-color="#0072ff" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#0a192f" stop-opacity="0" />
+    </radialGradient>
+
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="1200" height="400" rx="20" fill="url(#deepOcean)" stroke="#1e3a5f" stroke-width="2" />
+
+  <!-- Subsurface Tech Grid -->
+  <g stroke="#00f2fe" stroke-opacity="0.05" stroke-width="1">
+    <line x1="0" y1="50" x2="1200" y2="50" />
+    <line x1="0" y1="100" x2="1200" y2="100" />
+    <line x1="0" y1="150" x2="1200" y2="150" />
+    <line x1="0" y1="200" x2="1200" y2="200" />
+    <line x1="0" y1="250" x2="1200" y2="250" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="0" y1="350" x2="1200" y2="350" />
+    <line x1="120" y1="0" x2="120" y2="400" />
+    <line x1="240" y1="0" x2="240" y2="400" />
+    <line x1="360" y1="0" x2="360" y2="400" />
+    <line x1="480" y1="0" x2="480" y2="400" />
+    <line x1="600" y1="0" x2="600" y2="400" />
+    <line x1="720" y1="0" x2="720" y2="400" />
+    <line x1="840" y1="0" x2="840" y2="400" />
+    <line x1="960" y1="0" x2="960" y2="400" />
+    <line x1="1080" y1="0" x2="1080" y2="400" />
+  </g>
+
+  <!-- Sonar Radar Visualization on Right -->
+  <circle cx="1020" cy="200" r="170" fill="url(#radarPulse)" />
+  <circle cx="1020" cy="200" r="160" fill="none" stroke="#00f2fe" stroke-opacity="0.12" stroke-width="1.5" />
+  <circle cx="1020" cy="200" r="120" fill="none" stroke="#00f2fe" stroke-opacity="0.25" stroke-width="1.5" stroke-dasharray="6,6" />
+  <circle cx="1020" cy="200" r="80" fill="none" stroke="#00f2fe" stroke-opacity="0.4" stroke-width="1.5" />
+  <circle cx="1020" cy="200" r="40" fill="none" stroke="#00f2fe" stroke-opacity="0.6" stroke-width="1.5" />
+  <circle cx="1020" cy="200" r="10" fill="#00f2fe" filter="url(#softGlow)" />
+
+  <!-- Radar Crosshairs -->
+  <line x1="1020" y1="20" x2="1020" y2="380" stroke="#00f2fe" stroke-opacity="0.2" stroke-width="1" />
+  <line x1="840" y1="200" x2="1200" y2="200" stroke="#00f2fe" stroke-opacity="0.2" stroke-width="1" />
+
+  <!-- Radar Anomaly Markers -->
+  <g transform="translate(950, 140)">
+    <circle cx="0" cy="0" r="6" fill="#ff4757" filter="url(#softGlow)" />
+    <circle cx="0" cy="0" r="14" fill="none" stroke="#ff4757" stroke-width="1.5" stroke-dasharray="3,3" />
+    <text x="14" y="4" font-family="'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="800" fill="#ff6b81">TARGET BLIP [FERROUS METALLIC DEBRIS]</text>
+  </g>
+  <g transform="translate(1090, 260)">
+    <circle cx="0" cy="0" r="5" fill="#2ed573" filter="url(#softGlow)" />
+    <circle cx="0" cy="0" r="12" fill="none" stroke="#2ed573" stroke-width="1" />
+    <text x="12" y="4" font-family="'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#7bed9f">AQUASCAN AUV POSITION</text>
+  </g>
+
+  <!-- Left Header Pill (SIH 2026 Badge) -->
+  <g transform="translate(60, 42)">
+    <rect width="400" height="34" rx="17" fill="#ffffff" fill-opacity="0.08" stroke="#00f2fe" stroke-opacity="0.4" stroke-width="1.5" />
+    <circle cx="20" cy="17" r="7" fill="url(#indiaSaffron)" />
+    <text x="36" y="22" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="800" fill="#ffffff" letter-spacing="1">SMART INDIA HACKATHON 2026</text>
+    <text x="285" y="22" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#00f2fe">| PS ID: #26064</text>
+  </g>
+
+  <!-- Brand Title -->
+  <text x="60" y="148" font-family="'Segoe UI', Roboto, -apple-system, sans-serif" font-size="64" font-weight="900" fill="#ffffff" letter-spacing="-1">
+    Aqua<tspan fill="url(#neonCyan)">Scan</tspan>
+  </text>
+
+  <!-- Glowing Underline Accent -->
+  <rect x="60" y="162" width="280" height="4" rx="2" fill="url(#neonCyan)" />
+
+  <!-- Subtitle -->
+  <text x="60" y="200" font-family="'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700" fill="#7bed9f" letter-spacing="0.3">
+    Low-Cost Deployable Seafloor Metal Detection Sensor for Ocean Resource Exploration
+  </text>
+
+  <!-- Description paragraph -->
+  <text x="60" y="238" font-family="'Segoe UI', Roboto, sans-serif" font-size="14" fill="#cbd5e1" font-weight="400">
+    Autonomous Underwater Vehicle (AUV) &amp; Pulse Induction Sensor Platform for Sub-Bed Hazard Reconnaissance,
+  </text>
+  <text x="60" y="260" font-family="'Segoe UI', Roboto, sans-serif" font-size="14" fill="#94a3b8" font-weight="400">
+    Sediment Clutter Rejection, Shallow-Water Disaster Management, and Coastal Resource Exploration.
+  </text>
+
+  <!-- Metric Badges Row (Bottom) -->
+  <g transform="translate(60, 305)">
+    <!-- Badge 1 -->
+    <rect x="0" y="0" width="165" height="58" rx="10" fill="#07182c" stroke="#2ed573" stroke-width="1.5" />
+    <text x="16" y="22" font-family="'Segoe UI', Roboto, sans-serif" font-size="10" fill="#94a3b8" font-weight="700">TARGET UNIT BOM</text>
+    <text x="16" y="46" font-family="'Segoe UI', Roboto, sans-serif" font-size="20" fill="#2ed573" font-weight="900">&lt; ₹15,000 INR</text>
+
+    <!-- Badge 2 -->
+    <rect x="180" y="0" width="180" height="58" rx="10" fill="#07182c" stroke="#00d2d3" stroke-width="1.5" />
+    <text x="16" y="22" transform="translate(180, 0)" font-family="'Segoe UI', Roboto, sans-serif" font-size="10" fill="#94a3b8" font-weight="700">TARGET WORKING DEPTH</text>
+    <text x="16" y="46" transform="translate(180, 0)" font-family="'Segoe UI', Roboto, sans-serif" font-size="20" fill="#00f2fe" font-weight="900">0 – 10 Meters</text>
+
+    <!-- Badge 3 -->
+    <rect x="375" y="0" width="195" height="58" rx="10" fill="#07182c" stroke="#54a0ff" stroke-width="1.5" />
+    <text x="16" y="22" transform="translate(375, 0)" font-family="'Segoe UI', Roboto, sans-serif" font-size="10" fill="#94a3b8" font-weight="700">ELECTROMAGNETIC SENSING</text>
+    <text x="16" y="46" transform="translate(375, 0)" font-family="'Segoe UI', Roboto, sans-serif" font-size="18" fill="#54a0ff" font-weight="900">Pulse Induction (PI)</text>
+
+    <!-- Badge 4 -->
+    <rect x="585" y="0" width="165" height="58" rx="10" fill="#07182c" stroke="#ff9f43" stroke-width="1.5" />
+    <text x="16" y="22" transform="translate(585, 0)" font-family="'Segoe UI', Roboto, sans-serif" font-size="10" fill="#94a3b8" font-weight="700">SURFACE TELEMETRY</text>
+    <text x="16" y="46" transform="translate(585, 0)" font-family="'Segoe UI', Roboto, sans-serif" font-size="19" fill="#ff9f43" font-weight="900">LoRa 915 MHz</text>
+  </g>
+</svg>

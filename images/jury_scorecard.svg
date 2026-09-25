@@ -1,0 +1,86 @@
+<svg viewBox="0 0 1000 280" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#071120" />
+      <stop offset="50%" stop-color="#0f2038" />
+      <stop offset="100%" stop-color="#081426" />
+    </linearGradient>
+
+    <!-- Pillar Gradients -->
+    <linearGradient id="p1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff9f43" />
+      <stop offset="100%" stop-color="#ee5253" />
+    </linearGradient>
+    <linearGradient id="p2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0abde3" />
+      <stop offset="100%" stop-color="#10ac84" />
+    </linearGradient>
+    <linearGradient id="p3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5f27cd" />
+      <stop offset="100%" stop-color="#341f97" />
+    </linearGradient>
+    <linearGradient id="p4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d2d3" />
+      <stop offset="100%" stop-color="#54a0ff" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="280" rx="16" fill="url(#cardBg)" stroke="#1e3a5f" stroke-width="1.5" />
+
+  <!-- Card Header -->
+  <text x="40" y="42" font-family="'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="900" fill="#ffffff">
+    🎯 SMART INDIA HACKATHON 2026: <tspan fill="#4facfe">EVALUATION METRIC CARD</tspan>
+  </text>
+  <text x="40" y="66" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">
+    Problem Statement #26064 | Disaster Management (Hardware Category)
+  </text>
+
+  <!-- 4 Pillars Grid -->
+  <!-- Col 1: Hardware Rigor -->
+  <g transform="translate(40, 95)">
+    <rect width="210" height="155" rx="10" fill="#0b1b33" stroke="#ff9f43" stroke-width="1" />
+    <circle cx="28" cy="28" r="14" fill="url(#p1)" />
+    <text x="28" y="34" font-family="'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="900" fill="#ffffff" text-anchor="middle">1</text>
+    <text x="52" y="33" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#ff9f43">HARDWARE RIGOR</text>
+    <text x="14" y="65" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#cbd5e1">• Custom PI Front-End</text>
+    <text x="14" y="85" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#cbd5e1">• Dual-O-Ring Sealed Hull</text>
+    <text x="14" y="105" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#cbd5e1">• 3-Axis Brushless Thrusters</text>
+    <text x="14" y="132" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#2ed573">✓ Depth-Rated 10m Hull</text>
+  </g>
+
+  <!-- Col 2: Signal Intelligence -->
+  <g transform="translate(270, 95)">
+    <rect width="210" height="155" rx="10" fill="#0b1b33" stroke="#10ac84" stroke-width="1" />
+    <circle cx="28" cy="28" r="14" fill="url(#p2)" />
+    <text x="28" y="34" font-family="'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="900" fill="#ffffff" text-anchor="middle">2</text>
+    <text x="52" y="33" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#10ac84">SIGNAL CLUTTER REJECTION</text>
+    <text x="14" y="65" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#cbd5e1">• Dual Time-Gate Window</text>
+    <text x="14" y="85" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#cbd5e1">• Seawater τ &lt; 2µs Filter</text>
+    <text x="14" y="105" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#cbd5e1">• Penetrates 50cm Silt</text>
+    <text x="14" y="132" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#2ed573">✓ Zero Salinity False-Triggers</text>
+  </g>
+
+  <!-- Col 3: Cost Disruption -->
+  <g transform="translate(500, 95)">
+    <rect width="210" height="155" rx="10" fill="#0b1b33" stroke="#5f27cd" stroke-width="1" />
+    <circle cx="28" cy="28" r="14" fill="url(#p3)" />
+    <text x="28" y="34" font-family="'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="900" fill="#ffffff" text-anchor="middle">3</text>
+    <text x="52" y="33" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#a29bfe">BUDGET ATTAINABILITY</text>
+    <text x="14" y="65" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#cbd5e1">• Unit BOM: &lt; ₹15,000</text>
+    <text x="14" y="85" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#cbd5e1">• 100% COTS Components</text>
+    <text x="14" y="105" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#cbd5e1">• Acoustic Modem Replaced</text>
+    <text x="14" y="132" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#2ed573">✓ 99.7% Cheaper Than Imports</text>
+  </g>
+
+  <!-- Col 4: Disaster Impact -->
+  <g transform="translate(730, 95)">
+    <rect width="230" height="155" rx="10" fill="#0b1b33" stroke="#00d2d3" stroke-width="1" />
+    <circle cx="28" cy="28" r="14" fill="url(#p4)" />
+    <text x="28" y="34" font-family="'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="900" fill="#ffffff" text-anchor="middle">4</text>
+    <text x="52" y="33" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#00d2d3">DISASTER FIELD VALUE</text>
+    <text x="14" y="65" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#cbd5e1">• Cyclone Wreckage Search</text>
+    <text x="14" y="85" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#cbd5e1">• Shallow Water Navigation</text>
+    <text x="14" y="105" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#cbd5e1">• Shore LoRa Uplink (5km)</text>
+    <text x="14" y="132" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#2ed573">✓ Single-Operator Deployable</text>
+  </g>
+</svg>
