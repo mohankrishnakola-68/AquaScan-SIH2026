@@ -1,0 +1,45 @@
+<svg viewBox="0 0 1000 180" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="vidGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1b33" />
+      <stop offset="50%" stop-color="#153e75" />
+      <stop offset="100%" stop-color="#081426" />
+    </linearGradient>
+    <linearGradient id="playGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff4757" />
+      <stop offset="100%" stop-color="#ff6b81" />
+    </linearGradient>
+    <filter id="vidGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="b" />
+      <feComposite in="SourceGraphic" in2="b" operator="over" />
+    </filter>
+  </defs>
+
+  <rect width="1000" height="180" rx="16" fill="url(#vidGrad)" stroke="#00f2fe" stroke-width="1.5" />
+
+  <!-- Play Icon Circle on Left -->
+  <g transform="translate(60, 45)">
+    <circle cx="45" cy="45" r="45" fill="url(#playGrad)" filter="url(#vidGlow)" />
+    <!-- Play Triangle -->
+    <polygon points="38,28 62,45 38,62" fill="#ffffff" />
+  </g>
+
+  <!-- Text Info -->
+  <text x="180" y="55" font-family="'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="800" fill="#00f2fe" letter-spacing="1">
+    🎥 OFFICIAL SYSTEM DEMONSTRATION &amp; PROTOTYPE VIDEO
+  </text>
+  <text x="180" y="85" font-family="'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="900" fill="#ffffff">
+    Watch AquaScan Working Prototype &amp; Sub-Bed Scan
+  </text>
+  <text x="180" y="115" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" fill="#cbd5e1">
+    Click here to watch the demonstration video submitted for Smart India Hackathon 2026.
+  </text>
+
+  <!-- Button Pill on Right -->
+  <g transform="translate(730, 62)">
+    <rect width="210" height="56" rx="28" fill="#00d2d3" filter="url(#vidGlow)" />
+    <text x="105" y="34" font-family="'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="900" fill="#030813" text-anchor="middle" letter-spacing="0.5">
+      ▶ PLAY VIDEO DEMO
+    </text>
+  </g>
+</svg>

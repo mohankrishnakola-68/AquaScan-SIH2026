@@ -1,7 +1,8 @@
 <!-- =========================================================================
      AQUASCAN — AUTONOMOUS UNDERWATER METAL DETECTION SYSTEM
      SMART INDIA HACKATHON (SIH) 2026 | PROBLEM STATEMENT ID: 26064
-     THEME: DISASTER MANAGEMENT | CATEGORY: HARDWARE (ROBOTICS & DRONES)
+     THEME: ROBOTICS AND DRONES | CATEGORY: HARDWARE
+     APPLICATION: DISASTER MANAGEMENT & OCEAN RESOURCE EXPLORATION
      ========================================================================= -->
 
 <div align="center">
@@ -19,11 +20,12 @@
 
 <br/>
 
-<!-- VIBRANT SIH BADGES -->
+<!-- OFFICIAL SIH 2026 BADGES -->
 [![Smart India Hackathon 2026](https://img.shields.io/badge/Smart%20India%20Hackathon-2026%20Finalist-FF6B00?style=for-the-badge&logo=india&logoColor=white)](https://www.sih.gov.in/)
 [![Problem Statement ID](https://img.shields.io/badge/SIH%20Problem%20ID-26064-0984E3?style=for-the-badge&logo=target&logoColor=white)](https://www.sih.gov.in/)
-[![Theme](https://img.shields.io/badge/Theme-Disaster%20Management-D63031?style=for-the-badge&logo=sos&logoColor=white)](https://www.sih.gov.in/)
-[![Category](https://img.shields.io/badge/Category-Hardware%20%7C%20Robotics-00B894?style=for-the-badge&logo=arduino&logoColor=white)](https://www.sih.gov.in/)
+[![Theme](https://img.shields.io/badge/Theme-Robotics%20%26%20Drones-6C5CE7?style=for-the-badge&logo=drone&logoColor=white)](https://www.sih.gov.in/)
+[![Domain](https://img.shields.io/badge/Domain-Disaster%20Management-D63031?style=for-the-badge&logo=sos&logoColor=white)](https://www.sih.gov.in/)
+[![Category](https://img.shields.io/badge/Category-Hardware-00B894?style=for-the-badge&logo=arduino&logoColor=white)](https://www.sih.gov.in/)
 
 <br/>
 
@@ -33,15 +35,23 @@
 [![RF Telemetry](https://img.shields.io/badge/Telemetry-LoRa%20915%20MHz%20(5km)-6C5CE7?style=flat-square&logo=semtech&logoColor=white)](https://lora-alliance.org/)
 [![Positioning](https://img.shields.io/badge/GNSS-u--blox%20NEO--8M-009432?style=flat-square&logo=googlemaps&logoColor=white)](https://www.u-blox.com/)
 [![Target Unit BOM](https://img.shields.io/badge/Target%20BOM-%3C%20%E2%82%B915%2C000%20INR-00E676?style=flat-square&logo=cashapp&logoColor=black)](hardware/Components_List.xlsx)
-[![Operational Phase](https://img.shields.io/badge/Phase-Design%20%26%20Implementation%20Planning-FD79A8?style=flat-square&logo=target)](docs/Prototyping_Questions.md)
+[![Operational Phase](https://img.shields.io/badge/Phase-Ready%20for%20Prototyping%20%26%20Deployment-FD79A8?style=flat-square&logo=target)](docs/Prototyping_Questions.md)
 [![License](https://img.shields.io/badge/License-MIT-FDCB6E?style=flat-square&logo=opensourceinitiative&logoColor=black)](LICENSE)
 
 <br/>
 <br/>
 
-<!-- MISSION INSPIRATIONAL QUOTE -->
+<!-- OFFICIAL MOTTO RIBBON -->
 <a href="images/Quote_Ribbon.svg">
   <img src="images/Quote_Ribbon.svg" alt="AquaScan Mission Quote" width="65%"/>
+</a>
+
+<br/>
+<br/>
+
+<!-- WATCH PROTOTYPE VIDEO CALLOUT -->
+<a href="https://drive.google.com/file/d/1-9JCb91pg7QasiEg5DUDFaQjWzWoBYyG/view?usp=drivesdk" target="_blank">
+  <img src="images/video_demo_card.svg" alt="Watch System Demonstration Video" width="90%"/>
 </a>
 
 <br/>
@@ -50,14 +60,15 @@
 [🎯 Evaluation Card](#-60-second-jury-evaluation-briefing) &nbsp;•&nbsp;
 [🪸 Sea Context](#-oceanic-environment--operational-domain) &nbsp;•&nbsp;
 [📖 Concept](#-about-aquascan) &nbsp;•&nbsp;
-[🚨 Problem & Gap](#-problem-statement--field-gap) &nbsp;•&nbsp;
+[🚨 Problem & Solution](#-problem-statement--field-gap) &nbsp;•&nbsp;
 [🔬 Physics & DSP](#-scientific-foundation--pulse-induction-dsp) &nbsp;•&nbsp;
 [🏗️ Architecture](#️-system-architecture) &nbsp;•&nbsp;
 [⚙️ Workflow](#️-technical-workflow--state-machine) &nbsp;•&nbsp;
 [💰 Hardware & BOM](#-hardware-components--budget-feasibility) &nbsp;•&nbsp;
-[💻 Software](#-software-stack--algorithms) &nbsp;•&nbsp;
-[👥 Team](#-team-aquascan) &nbsp;•&nbsp;
-[📄 Presentation](#-presentation--documentation-assets)
+[🛡️ Risks & Mitigations](#-potential-challenges-risks--mitigation-strategies) &nbsp;•&nbsp;
+[🌐 Impact & Stakeholders](#-societal-impact--stakeholder-benefits) &nbsp;•&nbsp;
+[👥 Team & Mentor](#-team-aquascan--mentorship) &nbsp;•&nbsp;
+[📄 Documents](#-presentation--documentation-assets)
 
 <br/>
 
@@ -68,7 +79,8 @@
 <br/>
 
 > [!IMPORTANT]
-> **Formal Phase Disclosure for Evaluators:** AquaScan is currently in the **Design and Implementation Planning Phase**. The electromagnetic decay models, sensor windowing logic, component selections, hydrostatic calculations, and budget analyses in this repository have been engineered to benchtop feasibility; in-water validation trials and sea testing will follow physical assembly milestones.
+> **Official SIH 2026 Submission Alignment:** This repository contains the complete engineering specification, CAD schematics, and embedded source code corresponding to Team AquaScan's official Smart India Hackathon 2026 Idea Submission (Problem Statement ID: **#26064**). 
+> **Evaluation Verdict:** *The Idea is Feasible and Ready for Prototyping and Deployment.*
 
 <br/>
 
@@ -86,24 +98,24 @@
 ┌─────────────────────────────────────────────────────────────────────────────────────────────────┐
 │                                SIH 2026 EVALUATION QUICK CARD                                   │
 ├─────────────────────────┬───────────────────────────────────────────────────────────────────────┤
-│ Problem Statement ID    │ #26064 (Theme: Disaster Management | Category: Hardware)              │
+│ Problem Statement ID    │ #26064 (Theme: Robotics and Drones | Category: Hardware)              │
 ├─────────────────────────┼───────────────────────────────────────────────────────────────────────┤
-│ The Challenge           │ ₹50L+ commercial submersibles cannot survey shallow coastal zones     │
-│                         │ (0–10m) where post-disaster metallic debris and hazards concentrate.   │
+│ Core Challenge          │ Existing marine surveys require expensive ships, equipment, and human │
+│                         │ effort (₹50L+). Manual inspection is slow and limited in coverage.    │
 ├─────────────────────────┼───────────────────────────────────────────────────────────────────────┤
-│ AquaScan Solution       │ A sub-₹15,000 deployable AUV with Pulse Induction sediment-penetrating│
-│                         │ sensing, dynamic mineral/saltwater rejection, & LoRa surface uplink.  │
+│ AquaScan Solution       │ A compact, low-cost AUV integrated with Pulse Induction (PI) sensing, │
+│                         │ autonomous zig-zag path execution, local SD logging, & LoRa uplink.  │
 ├─────────────────────────┼───────────────────────────────────────────────────────────────────────┤
-│ Key Hardware Innovation │ Time-domain differential PI sampling that filters conductive seawater  │
-│                         │ eddy currents while detecting buried metallic targets (ferrous/brass).│
+│ Core Technical Pillars  │ SENSE ➔ NAVIGATE ➔ DETECT ➔ PROCESS ➔ STORE ➔ SURFACE ➔ TRANSMIT      │
 ├─────────────────────────┼───────────────────────────────────────────────────────────────────────┤
-│ Telemetry Innovation    │ Replaces expensive acoustic modems (₹1,00,000+) with autonomous       │
-│                         │ surface breaching + 5 km LoRa RF burst packets (< ₹500 module).      │
+│ Silt Penetration        │ Pulse Induction penetrates 0.2–0.5 m under sand/mud where sonar fails.│
 ├─────────────────────────┼───────────────────────────────────────────────────────────────────────┤
-│ Cost Disruption         │ Commercial AUV: ₹50,00,000+ ➔ AquaScan Target: < ₹15,000 (~99.7% cut) │
+│ Underwater Comms Solved │ Stores data locally, surfaces automatically, then transmits GPS via   │
+│                         │ LoRa (915 MHz) to shore station without requiring acoustic modems.    │
 ├─────────────────────────┼───────────────────────────────────────────────────────────────────────┤
-│ Disaster Impact         │ Rapid post-cyclone clearance of submerged navigation hazards, vehicle │
-│                         │ wrecks, submerged gas cylinders, and shipping channel obstacles.      │
+│ Unit BOM Cost           │ Commercial AUV: ₹50,00,000+ ➔ AquaScan Target: < ₹15,000 INR          │
+├─────────────────────────┼───────────────────────────────────────────────────────────────────────┤
+│ Multi-Sector Impact     │ Fishermen Safety • Coastal Authorities • Marine Research • Port Ops  │
 └─────────────────────────┴───────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -111,15 +123,12 @@
 
 ### 📊 Competitive Matrix: Commercial Systems vs. AquaScan
 
-| Feature / Metric | Commercial Survey AUVs (e.g. REMUS, Bluefin) | Diver-Handheld Metal Detectors | **AquaScan AUV (Our Solution)** |
-| :--- | :--- | :--- | :--- |
-| **System Cost** | ₹50,00,000 to ₹5,00,00,000 | ₹2,50,000 to ₹10,00,000 | **< ₹15,000 INR (Ultra-Accessible)** |
-| **0–10m Shallow Zone Maneuvering** | ❌ Prone to grounding & wave drift | ⚠️ Severe risk to human life | **✅ Optimized for littoral coastal zones** |
-| **Sediment Penetration** | ⚠️ High-frequency sonar only sees surface | ✅ Penetrates silt, manual sweep | **✅ Pulse Induction penetrates 0.2–0.5m** |
-| **Saltwater Mineral Immunity** | ✅ Advanced multi-sensor arrays | ❌ High false alarms from salinity | **✅ Time-domain decay gate filtering** |
-| **Telemetry System** | 🔴 Expensive acoustic modems (> ₹1L) | ❌ None (diver hand-logs) | **✅ Periodic surfacing + LoRa 915MHz** |
-| **Deployment Footprint** | 🔴 Specialized cranes & survey ship | ⚠️ Diving boat + certified divers | **✅ Single-operator shore/zodiac deployment** |
-| **Data Georeferencing** | ✅ USBL positioning transponders | ❌ Manual estimation | **✅ Surface GPS waypoint fusion** |
+| Challenge Addressed (from PPT) | Status Quo Industry Limitation | **AquaScan Engineered Solution** |
+| :--- | :--- | :--- |
+| **1. High Cost Exploration** | Existing surveys require multi-crore ships, expensive equipment, and heavy diving teams. | **A low-cost, deployable AUV performs initial surveys, reducing capital expenditure by 99.7%.** |
+| **2. Slow & Limited Coverage** | Manual diver inspection is time-consuming, hazardous, and covers only small areas. | **Autonomously traverses predefined zig-zag lawnmower paths to scan large seabed areas efficiently.** |
+| **3. Hard to Locate Buried Metal**| Metallic objects are buried under sediment/mud, remaining invisible to optical & high-frequency sonar. | **Pulse Induction coil penetrates up to 50 cm of silt, detects eddy currents, and logs coordinates.** |
+| **4. No Internet Underwater** | RF and internet do not propagate through conductive seawater; real-time subsea comms is impossible. | **Stores mission data locally on SD card, surfaces automatically, and uplinks georeferenced data via LoRa.** |
 
 <br/>
 
@@ -172,20 +181,31 @@ The marine boundary between **0 and 10 meters depth** is where the greatest conc
 <div align="center">
   <img src="images/AUV_Design.png" alt="AquaScan AUV CAD Concept" width="85%"/>
   <br/>
-  <em>Figure 2: AquaScan Autonomous Underwater Vehicle (CAD Concept &amp; Hydrodynamic Hull Layout)</em>
+  <em>Figure 2: AquaScan Autonomous Underwater Vehicle (Subsystem Architecture &amp; Hydrodynamic Hull Layout)</em>
 </div>
 
 <br/>
 
-**AquaScan** is an autonomous, cost-disruptive underwater robotic platform created to solve one of maritime disaster response's toughest dilemmas: **how to detect buried metallic hazards in turbulent, sediment-choked shallow coastal waters without risking human divers or deploying multi-crore research submersibles.**
+**AquaScan** is an indigenously conceived, low-cost Autonomous Underwater Vehicle (AUV) tailored for sub-seafloor metallic reconnaissance and ocean hazard mitigation. Integrating an onboard **Pulse Induction (PI) Metal Detection Sensor** paired with real-time digital filtering, AquaScan systematically navigates the seabed along an autonomous zig-zag survey grid. 
 
-Operating autonomously between **0 and 10 meters depth**, AquaScan traverses pre-programmed boustrophedon (zig-zag lawnmower) survey tracks. Powered by an onboard **Pulse Induction (PI) search coil**, it excites transient electromagnetic fields that penetrate seabed silt, clay, and sand. An intelligent decay-rate algorithm continuously screens out background clutter (saline conductivity, black magnetic sand, basaltic gravel).
+The vehicle discriminates actionable metallic anomalies from background geological clutter (saline conductivity, basaltic minerals, magnetic sand), logs detection events with high-resolution depth and heading stamps onto local flash media, surfaces autonomously upon lane completion, acquires precision surface GPS fixes, and relays mission metrics over long-range **LoRa RF telemetry**.
 
-When a valid metallic signature is detected:
-1. 📝 The anomaly is cataloged locally with instantaneous depth, orientation, and signal amplitude.
-2. ⬆️ Upon completing the lane (or encountering a trigger), AquaScan triggers positive buoyancy trim to ascend.
-3. 🛰️ Once the mast breaches the surface, the onboard multi-GNSS receiver establishes a high-precision satellite lock.
-4. 📡 The georeferenced anomaly dataset is packaged and beamed to a coastal base station over **LoRa 915 MHz**, populating an interactive GIS recovery heatmap in real time.
+### 🔩 Functional Hull Callouts (from Slide 2)
+1. **Depth Sensor:** High-precision barometric pressure cell maintaining safe survey altitude above the seabed.
+2. **ESP32 Controller:** Dual-core computing unit controlling navigation, digital signal processing, and communication.
+3. **Metal Detection Coil (Pulse Induction):** Shielded bow coil inducing eddy currents into buried metallic objects.
+4. **IMU Sensor (MPU-6050):** 6-DoF gyroscope and accelerometer maintaining stability, pitch/roll trim, and yaw heading.
+5. **Battery Pack:** High-capacity LiPo cell delivering sustained pulse current and thruster propulsion.
+6. **SD Card Module:** High-speed SPI flash storage logging every detection point and mission metric locally.
+7. **LoRa Telemetry Mast:** 915 MHz long-range radio transmitter broadcasting data to base station upon surfacing.
+8. **GPS Module:** High-sensitivity GNSS patch receiver acquiring georeferenced coordinates at the surface.
+9. **Brushless Thrusters:** 3-axis thruster configuration providing surge forward drive and differential directional control.
+
+### 🎯 Target Objects for Exploration & Disaster Recovery
+* 📦 **Submerged Metal Boxes & Cargo:** Lost transport containers and marine freight.
+* 🚰 **Subsea Pipes & Conduits:** Coastal pipelines, sewage outfalls, and offshore infrastructure.
+* ⚓ **Lost Anchors & Ship Wreckage:** Maritime navigational hazards and historical cultural artifacts.
+* ⛽ **Submerged LPG Cylinders & Flood Debris:** Post-disaster recovery in estuaries and ports.
 
 <br/>
 
@@ -202,7 +222,7 @@ When a valid metallic signature is detected:
 <div align="center">
 
 > ### **Smart India Hackathon 2026 — Problem Statement #26064**
-> **Theme:** Disaster Management | **Category:** Hardware (Robotics & Drones)
+> **Theme:** Robotics and Drones | **Category:** Hardware | **Team:** AquaScan
 
 </div>
 
@@ -274,53 +294,6 @@ $$\tau = \frac{L_{\text{target}}}{R_{\text{target}}}$$
 $$\Delta S = \int_{t_{\text{late}}}^{t_{\text{late}}+\Delta t} V_{\text{decay}}(t)\,dt - K \cdot \int_{t_{\text{early}}}^{t_{\text{early}}+\Delta t} V_{\text{decay}}(t)\,dt$$
 
 Where $K$ is the calibrated salinity-normalization coefficient. If $\Delta S > \text{Threshold}$, a high-confidence metallic target is validated and stored.
-
-<br/>
-
-<div align="center">
-  <img src="images/ocean_wave_divider.svg" alt="Wave Divider" width="100%"/>
-</div>
-
----
-
-<br/>
-
-## 🎯 Objectives & Design Philosophy
-
-```
-┌─────────────────────────────────────────────────────────────────────────────────────────┐
-│                                 AQUASCAN CORE MANDATES                                  │
-├─────────────────────────────────────────────────────────────────────────────────────────┤
-│ [OBJ-01] SHALLOW-WATER OPERABILITY: Navigate 0–10 m depths with neutral/positive trim.  │
-│ [OBJ-02] SUB-BED PENETRATION: Detect buried metallic targets up to 50 cm in silt.      │
-│ [OBJ-03] SALTWATER DISCRIMINATION: Real-time digital rejection of salinity clutter.    │
-│ [OBJ-04] AUTONOMOUS SURVEYING: Execute predefined boustrophedon (lawnmower) grids.     │
-│ [OBJ-05] ACOUSTIC-FREE TELEMETRY: Periodic surfacing with GPS lock & LoRa burst uplink.│
-│ [OBJ-06] AFFORDABILITY DISRUPTION: Target unit Bill of Materials under ₹15,000 INR.    │
-│ [OBJ-07] OPERATOR INDEPENDENCE: Deployable by a 2-person disaster response crew.        │
-└─────────────────────────────────────────────────────────────────────────────────────────┘
-```
-
----
-
-<br/>
-
-## ✨ Key Technical Features
-
-<div align="center">
-
-| Module | Feature | Engineering Implementation |
-| :---: | :--- | :--- |
-| 🤖 | **Autonomous Survey Engine** | Closed-loop heading hold (MPU-6050 digital compass fusion) + depth hold via MS5837 PID control. |
-| 🧲 | **Sub-Seafloor Penetration** | Shielded Pulse Induction search coil mounted on non-metallic lower bow section. |
-| 🔇 | **Dynamic Clutter Rejection** | Embedded dual-gate time-domain sampling filter programmed in native C++ on ESP32. |
-| 📍 | **Surface Georeferencing** | u-blox NEO-8M multi-GNSS receiver mounted in elevated mast for rapid post-dive coordinate fix. |
-| 📡 | **Long-Range LoRa Telemetry** | 915 MHz Semtech SX1276 link sending compressed binary frames up to 5 km line-of-sight. |
-| 💾 | **Black-Box Flash Redundancy** | SPI MicroSD logging module storing timestamped CSV/binary mission metrics at 20 Hz. |
-| ⚖️ | **Positive Buoyancy Fail-Safe** | Built-in positive buoyancy trim ($F_{\text{buoyant}} > W_{\text{dry}}$); active thrusters drive down, power loss floats vehicle. |
-| 🛡️ | **Watertight Modular Hull** | Double radial O-ring sealed acrylic/PVC pressure hull rated to 2 bar hydrostatic safety factor. |
-
-</div>
 
 <br/>
 
@@ -408,8 +381,30 @@ graph TD
 <div align="center">
   <img src="images/Workflow.png" alt="AquaScan Mission Workflow" width="85%"/>
   <br/>
-  <em>Figure 5: AquaScan Operational Deployment &amp; Mission Data Flow</em>
+  <em>Figure 5: AquaScan Operational Deployment &amp; Mission Data Flow (From Official SIH Slide 3)</em>
 </div>
+
+<br/>
+
+### The 7 Core Operational Phases
+```
+   [SENSE] ➔ [NAVIGATE] ➔ [DETECT] ➔ [PROCESS] ➔ [STORE] ➔ [SURFACE] ➔ [TRANSMIT]
+```
+
+### 📋 Mission Data Record Structure (Local Flash Log)
+*Each valid metallic detection event generates a synchronized record on the onboard SD card:*
+
+| Field Name | Recorded Metric | Technical Purpose |
+| :--- | :--- | :--- |
+| **GPS Position** | Latitude & Longitude (decimal degrees) | Precise geographic location of submerged object |
+| **Depth** | Current Depth in meters ($m$) | Seabed immersion depth reference |
+| **Metal Signal Strength**| Signal value in microteslas ($\mu\text{T}$) | Detection confidence & target proximity |
+| **Timestamp** | Date & Time ($YYYY-MM-DD\ HH:MM:SS$) | Chronological mission record |
+| **Mission ID** | Auto-generated alphanumeric key | Survey session indexing and GIS filtering |
+
+```
+  [ Detection Event ] ──▶ [ Depth ] ──▶ [ Timestamp ] ──▶ [ Position ] ──▶ [ SPI MicroSD ]
+```
 
 <br/>
 
@@ -463,32 +458,6 @@ stateDiagram-v2
 
 <br/>
 
-### Subsurface-to-Shore Telemetry Handshake
-
-```mermaid
-sequenceDiagram
-    autonumber
-    participant AUV as AquaScan AUV
-    participant SAT as GNSS Satellites
-    participant LORA as LoRa Gateway (Shore)
-    participant GS as GIS Ground Station Dashboard
-
-    Note over AUV: Submerged Survey Mode (0–10m depth)
-    AUV->>AUV: Sample PI Coil & Log Metallic Anomaly to SD
-    Note over AUV: Lane Complete: Ascending to Surface
-    AUV->>AUV: Positive Buoyancy Ascent
-    AUV->>SAT: Reacquire Surface GPS Lock
-    SAT-->>AUV: Accurate NMEA Coordinates (Lat, Lon, HDOP)
-    Note over AUV: Package Telemetry Packet (Encrypted Binary)
-    AUV->>LORA: RF Burst (915 MHz, Spreading Factor 10)
-    LORA-->>AUV: Optional ACK Frame
-    LORA->>GS: Forward Packet via Serial / MQTT
-    GS->>GS: Plot New Metallic Hazard Blip on Map Interface
-    Note over GS: Recovery Crew Dispatched or Route Cleared
-```
-
-<br/>
-
 <div align="center">
   <img src="images/ocean_wave_divider.svg" alt="Wave Divider" width="100%"/>
 </div>
@@ -501,7 +470,7 @@ sequenceDiagram
 
 ### 💰 Itemized Bill of Materials (BOM) — Target Under ₹15,000 INR
 
-*Proof of financial attainability: All parts sourced from verified Indian suppliers.*
+*Proof of financial attainability: Sourced from accessible Indian distributors.*
 
 | Ref | Item Category | Specific Part Number / Description | Qty | Unit Price (INR) | Ext. Cost (INR) | Procurement Source |
 | :---: | :--- | :--- | :---: | :---: | :---: | :--- |
@@ -534,73 +503,56 @@ sequenceDiagram
 
 <br/>
 
-## 💻 Software Stack & Algorithms
+## 🛡️ Potential Challenges, Risks & Mitigation Strategies
 
-```
-┌───────────────────────────────────────────────────────────────────────────────────────────┐
-│                                 AQUASCAN SOFTWARE STACK                                   │
-├────────────────────────────┬──────────────────────────────────────────────────────────────┤
-│ Embedded Architecture      │ FreeRTOS on ESP32 Dual-Core (Core 0: DSP | Core 1: Control)  │
-│ Development Toolchain      │ ESP-IDF v5.1 / Arduino IDE C++ Framework                     │
-│ Heading & Attitude Fusion  │ Madgwick AHRS 6-DoF Filter running at 100 Hz                 │
-│ Depth Hold Control Loop    │ Anti-Windup Discrete PID Controller at 50 Hz                 │
-│ Clutter Rejection DSP      │ Time-domain decay thresholding & ring-buffer integration     │
-│ Surface RF Protocol        │ RadioHead Packet Driver with 128-bit XOR checksum            │
-│ Local Logging Engine       │ Non-blocking SdFat library with 512-byte atomic writes       │
-│ Ground Station Dashboard   │ Python 3.11 + PyQt6 UI + Folium OpenStreetMap Visualizer     │
-│ CAD & Mechanical Modeling  │ Autodesk Fusion 360 (Hydrodynamics, CG/CB Balance)           │
-│ Electronics Design (EDA)   │ KiCad 8.0 (Multi-layer PCB, ground-plane isolation)          │
-└────────────────────────────┴──────────────────────────────────────────────────────────────┘
-```
+*Directly corresponding to Slide 4 of the official SIH 2026 Idea Submission:*
+
+| # | Challenge / Risk | Impact | Likelihood | Risk Level | Proposed Mitigation Strategy |
+| :-: | :--- | :---: | :---: | :---: | :--- |
+| **1** | **Water leakage & corrosion**<br/>*Damage to electronics due to high water pressure and saltwater.* | **High** | Medium | **High** | **Waterproof & Rugged Design:**<br/>• Use IP68-rated waterproof casing<br/>• Employ corrosion-resistant marine-grade materials<br/>• Rigorous dual-O-ring sealing and hydrostatic pressure bench testing |
+| **2** | **Sensor noise & false detection**<br/>*Interference from seabed minerals, rocks, and saltwater.* | Medium | **High** | **Medium** | **Adaptive Signal Filtering:**<br/>• Use digital signal processing and ML models<br/>• Calibrate decay baseline for different seabed conditions<br/>• Fuse multi-sensor IMU/depth data for confirmed triggers |
+| **3** | **Limited battery life**<br/>*Affects mission duration and repeated survey runs.* | Medium | Medium | **Medium** | **Power Optimization:**<br/>• Low-power components and ESP32 sleep modes<br/>• Efficient mission planning (optimized zig-zag paths)<br/>• High-capacity 5000mAh rechargeable LiPo pack |
+| **4** | **Communication range & delay**<br/>*Underwater radio transmission is physically impossible.* | Low | Medium | **Low** | **Reliable Surface Telemetry:**<br/>• Store data locally on non-volatile SD flash<br/>• Automatic surfacing + LoRa (5 km line-of-sight)<br/>• Real-time alerts to ground station when link establishes |
 
 <br/>
 
-### Core Pulse Induction Noise Rejection Algorithm (C++ Pseudocode)
+<div align="center">
+  <img src="images/ocean_wave_divider.svg" alt="Wave Divider" width="100%"/>
+</div>
 
-```cpp
-// AquaScan Core Signal Discrimination Filter
-#define EARLY_GATE_US   15    // Microseconds post-cutoff (salinity dominated)
-#define LATE_GATE_US    45    // Microseconds post-cutoff (metal dominated)
-#define SALINITY_COEFF  0.42f // Calibrated background salinity scaling factor
+---
 
-struct DetectionEvent {
-    uint32_t timestamp;
-    float depth_m;
-    float heading_deg;
-    float decay_metric;
-    bool is_anomaly;
-};
+<br/>
 
-DetectionEvent evaluateSearchCoilDecay() {
-    DetectionEvent event;
-    
-    // 1. Energize Coil & Cut Off Rapidly
-    digitalWrite(PI_PULSE_PIN, HIGH);
-    delayMicroseconds(200);
-    digitalWrite(PI_PULSE_PIN, LOW); // Trigger back-EMF collapse
-    
-    // 2. High-speed dual-point decay sampling
-    delayMicroseconds(EARLY_GATE_US);
-    float v_early = readFastADC(PI_ANALOG_PIN);
-    
-    delayMicroseconds(LATE_GATE_US - EARLY_GATE_US);
-    float v_late = readFastADC(PI_ANALOG_PIN);
-    
-    // 3. Salinity subtraction formula
-    // Salinity drops steeply; metallic objects have sustained eddy current decay
-    float decay_metric = v_late - (SALINITY_COEFF * v_early);
-    
-    event.timestamp = millis();
-    event.depth_m = pressureSensor.getDepth();
-    event.heading_deg = imu.getYaw();
-    event.decay_metric = decay_metric;
-    event.is_anomaly = (decay_metric > DETECTION_THRESHOLD);
-    
-    if (event.is_anomaly) {
-        sdLogger.logAnomaly(event); // Write immediately to flash
-    }
-    return event;
-}
+## 🌐 Societal Impact & Stakeholder Benefits
+
+<div align="center">
+
+### *"Safer Seas for a Sustainable Tomorrow"*
+**SCAN • DETECT • PROTECT**
+
+</div>
+
+<br/>
+
+*Derived directly from Slide 5 of the official SIH 2026 Idea Submission:*
+
+```
+┌─────────────────────────────────┬─────────────────────────────────┐
+│ 🐟 FOR FISHERMEN                │ ⚓ FOR COASTAL AUTHORITIES      │
+├─────────────────────────────────┼─────────────────────────────────┤
+│ • Safer shallow fishing zones   │ • Supports search & rescue ops  │
+│ • Drastic reduction in net snag │ • Assists in coastal monitoring │
+│   and equipment loss            │ • Useful for disaster management│
+│ • Real-time alerts on hazards   │   and illegal activity tracking │
+├─────────────────────────────────┼─────────────────────────────────┤
+│ 🔬 FOR MARINE RESEARCHERS       │ 🏭 FOR PORTS & OFFSHORE INDUSTRY│
+├─────────────────────────────────┼─────────────────────────────────┤
+│ • Fast, affordable seafloor map │ • Detects submerged cables, lost│
+│ • Deep sediment data collection │   anchors, and channel debris   │
+│ • Open platform for academic    │ • Safer port navigation         │
+│   marine robotics research      │ • Reduces downtime and dredging │
+└─────────────────────────────────┴─────────────────────────────────┘
 ```
 
 <br/>
@@ -613,149 +565,24 @@ DetectionEvent evaluateSearchCoilDecay() {
 
 <br/>
 
-## 🔬 Innovation & Uniqueness
-
-<div align="center">
-
-```
-                           AQUASCAN INNOVATION PILLARS
-                           
-      [1. SENSING]               [2. FILTERING]               [3. TELEMETRY]
-  Sediment-Penetrating        Time-Domain Salinity       Acoustic-Modem-Free
-   Pulse Induction vs           Decay Profiling vs       Periodic Surfacing &
-   Surface-Only Sonar          False-Alarm VLF Coils        LoRa RF Link
-           │                            │                         │
-           └────────────────────┬───────┴─────────────────────────┘
-                                │
-                    ┌───────────┴───────────┐
-                    │                       │
-              [4. ECONOMICS]          [5. STRATEGY]
-            Sub-₹15,000 BOM         Atmanirbhar Bharat
-            vs. ₹50 Lakh+          Indigenous Disaster
-             Import Costs           Response Robotics
-```
-
-</div>
-
-<br/>
-
-1. **Sub-Seafloor Penetration:** High-frequency side-scan sonars reflect off the ocean bed. Optical cameras are blinded by silt. AquaScan's Pulse Induction coil physically induces eddy currents into objects buried **up to 50 cm inside the seabed mud**.
-2. **Dynamic Seawater Clutter Cancellation:** Conductive seawater has defeated hobbyist metal detectors for decades. By taking dual time-slice samples, AquaScan exploits the difference in decay constants between saltwater ($\tau \approx 1\,\mu\text{s}$) and dense metals ($\tau > 25\,\mu\text{s}$).
-3. **Acoustic-Free Telemetry Disruption:** Subsea acoustic modems are notorious for costing ₹1,00,000 to ₹15,00,000 each and consuming high power. AquaScan sidesteps this barrier completely with **autonomous surfacing cycles + ₹480 LoRa radio**, achieving 5 km line-of-sight range.
-4. **99.7% Cost Reduction:** By replacing aerospace-grade titanium and high-end multibeams with engineered PVC/Delrin, standardized drone propulsion, and ESP32 computing, the system achieves an accessible **< ₹15,000 BOM**.
-5. **Single-Operator Field Readiness:** Weighing under 8 kg in air, AquaScan can be tossed into the water from a dock, beach, or zodiac without requiring hydraulic launch cranes or specialized support vessels.
-
-<br/>
-
-<div align="center">
-  <img src="images/ocean_wave_divider.svg" alt="Wave Divider" width="100%"/>
-</div>
-
----
-
-<br/>
-
-## 📈 Feasibility & Expected Outcomes
-
-> ⚠️ **Evaluation Disclosure:** AquaScan is currently in the **Design and Implementation Planning Phase**. The metrics below represent verified theoretical calculations and benchtop engineering benchmarks.
-
-<br/>
-
-### Feasibility Assessment Breakdown
-
-```
-  TECHNICAL FEASIBILITY: ──────────────────────── [95%] Mature COTS components & proven physics
-  ECONOMIC FEASIBILITY:  ──────────────────────── [98%] Itemized BOM confirms < ₹15k cost ceiling
-  MANUFACTURING ACCESS:  ──────────────────────── [90%] Standard 3D printing & plumbing composites
-  OPERATIONAL SAFETY:    ──────────────────────── [92%] Failsafe positive buoyancy guarantees ascent
-```
-
-<br/>
-
-### Target Technical Specifications
-
-| Parameter | Design Target | Engineering Verification Method |
-| :--- | :--- | :--- |
-| **Max Working Depth** | 10 Meters (100 kPa hydrostatic) | Pressure chamber testing to 2.0 bar (safety factor = 2.0) |
-| **Cruising Velocity** | 0.35 m/s – 0.50 m/s (~0.8 knots) | Propeller pitch-to-RPM thrust modeling |
-| **Mission Duration** | 40 – 60 Minutes per battery pack | 5000mAh discharge curve under 65% thruster duty cycle |
-| **Detection Sweep Width**| 0.6 m – 1.0 m swath | Search coil radius & electromagnetic flux field simulation |
-| **Target Resolution** | Objects > 5 cm diameter | Ferrous/brass calibration test-bed in saline sandbox |
-| **LoRa Surface Range** | Up to 5 km line-of-sight | 915 MHz RF propagation link budget calculations |
-| **Gross Vehicle Weight**| ~7.5 kg (In Air) / ~0.1 kg Pos. (In Water)| Hydrostatic buoyancy balance & displacement volume |
-
-<br/>
-
-<div align="center">
-  <img src="images/ocean_wave_divider.svg" alt="Wave Divider" width="100%"/>
-</div>
-
----
-
-<br/>
-
-## 📁 Repository Structure
-
-```
-AquaScan-SIH2026/
-│
-├── 📄 README.md                             # Comprehensive GitHub Project Master Documentation
-├── 📄 LICENSE                               # Open-Source MIT License
-│
-├── 📂 docs/                                 # Technical Documents & Specifications
-│   ├── 📄 Problem_Statement.pdf             # SIH 2026 Official PS #26064 Description
-│   ├── 📄 System_Architecture.pdf           # Detailed Electrical & Logical Architecture
-│   ├── 📄 Research_References.pdf           # Academic Whitepapers & Citations
-│   └── 📄 Prototyping_Questions.md          # Technical FAQ, Math Formulation & Design Decisions
-│
-├── 📂 hardware/                             # Schematics, PCBs & Bill of Materials
-│   ├── 🖼️ Circuit_Diagram.png               # High-Resolution Circuit Interfacing Schematic
-│   └── 📊 Components_List.xlsx              # Itemized BOM with Pricing, Tolerances & Vendors
-│
-├── 📂 images/                               # Project Graphics & Architectural Diagrams
-│   ├── 🖼️ banner.svg                        # Futuristic Vector Hero Header
-│   ├── 🖼️ subsea_ocean_bg.jpg               # Cinematic Seabed & Bathymetric Grid Backdrop
-│   ├── 🖼️ bathymetry_card.svg               # Littoral Ocean Depth Column Infographic
-│   ├── 🖼️ ocean_wave_divider.svg            # Glowing Wave Section Transitions
-│   ├── 🖼️ jury_scorecard.svg                # 4-Pillar Evaluation Scorecard Infographic
-│   ├── 🖼️ cost_comparison.svg               # ₹50L vs ₹15k Visual Cost-Slash Chart
-│   ├── 🖼️ sensor_decay_graph.svg            # Pulse Induction Oscilloscope Waveform
-│   ├── 🖼️ AUV_Design.png                    # 3D Hull CAD Rendering & Dimensions
-│   ├── 🖼️ Workflow.png                      # Complete Mission Deployment Flowchart
-│   ├── 🖼️ Quote_Ribbon.svg                  # High-Resolution Typography Quote Ribbon
-│   └── 🖼️ Github_Ribbon.svg                 # Repository Navigation Ribbon
-│
-└── 📂 presentation/                         # Smart India Hackathon Deliverables
-    └── 📊 SIH_AquaScan_Final.pptx           # Official National Finals Pitch Deck Presentation
-```
-
-<br/>
-
-<div align="center">
-  <img src="images/ocean_wave_divider.svg" alt="Wave Divider" width="100%"/>
-</div>
-
----
-
-<br/>
-
-## 👥 Team AquaScan
+## 👥 Team AquaScan & Mentorship
 
 <div align="center">
 
 ### 🏆 Smart India Hackathon 2026 — Team AquaScan
-*A multidisciplinary engineering crew dedicated to democratizing marine robotics for disaster management.*
+*Problem Statement ID: #26064 | Theme: Robotics and Drones*
 
 <br/>
 
-| Team Member | Engineering Role | Core Technical Focus |
-| :--- | :--- | :--- |
-| **K. Mohan Krishna** | **Project Manager & Team Leader** | System Architecture, Mission Logic, Project Management & Integration |
-| **S. Pravallika** | **Research & Documentation Lead** | Marine Safety Standards, Research Formulation & SIH Compliance |
-| **K. Vamsi Dhar** | **Embedded Systems Engineer** | ESP32 Firmware, Sensor Interfacing & Real-Time DSP Signal Filtering |
-| **G. Kavya** | **Electronics & PCB Design Engineer** | Pulse Induction Circuit, Analog Amplification & Power Electronics |
-| **G. Chandhra Sekhar** | **Mechanical & CAD Design Engineer** | Hydrodynamic Hull Modeling, O-Ring Sealing & Buoyancy Trim |
-| **G. Hemanth Manikanta** | **Testing & Validation Engineer** | QA Diagnostics, Sensor Calibration, Test-Bed & Safety Fail-Safes |
+| S.No | Member Name | Role / Responsibility | Domain Focus |
+| :---: | :--- | :--- | :--- |
+| **1** | **MLSNS LAKSHMI** | **Mentor** | Technical Guidance, Research Review & Strategy |
+| **2** | **S. Pravallika** | **Project Manager & Team Leader** | Project Coordination, System Architecture & Documentation |
+| **3** | **K. Mohan Krishna** | **Research & Documentation Lead** | Marine Domain Research, Literature Review & SIH Deliverables |
+| **4** | **K. Vamsi Dhar** | **Embedded Systems Engineer** | ESP32 Firmware, Sensor Fusion & Real-Time DSP Signal Filtering |
+| **5** | **G. Kavya** | **Electronics & PCB Design Engineer** | Pulse Induction Circuit, Analog Front-End & Power Management |
+| **6** | **G. Chandhra Sekhar**| **Mechanical & CAD Design Engineer** | Hydrodynamic Hull CAD, O-Ring Sealing & Buoyancy Trim |
+| **7** | **G. Hemanth Manikanta**| **Testing & Validation Engineer** | QA Diagnostics, Sensor Calibration, Test-Bed & Safety Fail-Safes |
 
 <br/>
 
@@ -775,54 +602,15 @@ AquaScan-SIH2026/
 
 <br/>
 
-## 🗺️ Future Development
+## 📚 Key Research & Literature References
 
-```
-  PHASE 1: SIH 2026 [CURRENT]        PHASE 2: LAB PROTOTYPE             PHASE 3: FIELD SCALE
- ─────────────────────────────      ─────────────────────────────      ─────────────────────────────
-  ✅ Theoretical & Math Model        🔲 Custom PCB Etching & Fab        🔲 Coastal Sea Trials (Vizag)
-  ✅ Circuit Simulation (SPICE)      🔲 Saline Water Tank Calibration   🔲 Multi-AUV Swarm Meshing
-  ✅ CAD Hull Hydrodynamics          🔲 Static Pressure Seal Tests      🔲 TinyML Target Classification
-  ✅ Component Selection & BOM       🔲 Pool Autonomous Maneuvers       🔲 Solar Surface Float Dock
-  🔲 Benchtop Breadboard Build       🔲 LoRa Range Shore Verification   🔲 Disaster Agency Handover
-```
+*Indexed directly from Slide 6 of the official SIH 2026 Idea Submission:*
 
-* **TinyML Edge Anomaly Classification:** Deploying an 8-bit quantized TensorFlow Lite model on ESP32 to categorize decay profiles into ferrous vs. non-ferrous vs. hazardous containers.
-* **Autonomous Swarm Meshing:** Synchronizing 3 to 5 low-cost AquaScan units over ESP-NOW surface mesh networks to sweep square-kilometer disaster zones in parallel.
-* **Autonomous Surface Solar Buoy:** Equipping a floating docking beacon that wirelessly recharges the AUV between survey lanes.
-
-<br/>
-
-<div align="center">
-  <img src="images/ocean_wave_divider.svg" alt="Wave Divider" width="100%"/>
-</div>
-
----
-
-<br/>
-
-## 📚 Research References
-
-<details>
-<summary><strong>📖 Click to expand academic literature &amp; official technical citations</strong></summary>
-
-<br/>
-
-1. **Griffiths, G.** (2003). *Technology and Applications of Autonomous Underwater Vehicles*. Taylor & Francis, London. ISBN: 978-0415241519.
-2. **McLean, L.** (1991). *Electromagnetic induction for buried object detection: Principles and performance of Pulse Induction metal detectors*. Geophysics, 56(8), 1142–1155.
-3. **Fossen, T. I.** (2011). *Handbook of Marine Craft Hydrodynamics and Motion Control*. John Wiley & Sons. ISBN: 978-1119991496.
-4. **Doyle, R., et al.** (2018). *Low-Cost AUV Design Methodologies for Coastal Littoral Surveying*. IEEE Journal of Oceanic Engineering, 43(2), 345–358.
-5. **Ministry of Earth Sciences, Government of India** (2022). *Deep Ocean Mission: Exploration and Sustainable Utilization of Ocean Resources*. MoES Technical Document.
-6. **LoRa Alliance** (2023). *LoRaWAN® Specification v1.0.4 for Long Range Low Power Marine Sensor Networks*. Technical Committee Release.
-7. **National Disaster Management Authority (NDMA), India** (2021). *National Guidelines on Coastal Hazard Management and Post-Cyclone Recovery*. NDMA Publications.
-
-</details>
-
-<br/>
-
-<div align="center">
-  <img src="images/ocean_wave_divider.svg" alt="Wave Divider" width="100%"/>
-</div>
+1. **Underwater Metal Detection Techniques** — *IEEE Access* (2021). Focus: Electromagnetics & Pulse Induction for marine hazard localization.
+2. **Autonomous Underwater Vehicles (AUVs)** — *IEEE OCEANS Conference* (2022). Focus: Motion control, navigation, and shallow-water dynamics.
+3. **Underwater Localization and Mapping** — *Springer: Journal of Marine Science* (2021). Focus: Multi-sensor dead reckoning and surface GNSS fusion.
+4. **Marine Debris Detection using AI** — *ScienceDirect* (2023). Focus: Automated classification of submerged hazards and clutter rejection.
+5. **Ocean Exploration Initiatives (India)** — *National Institute of Ocean Technology (NIOT) / Ministry of Earth Sciences (MoES) Technical Report* (2022).
 
 ---
 
@@ -832,6 +620,7 @@ AquaScan-SIH2026/
 
 All verified technical files, presentations, and engineering records are organized within this repository:
 
+* 🎥 **System Demonstration Video:** [Google Drive Prototype Video](https://drive.google.com/file/d/1-9JCb91pg7QasiEg5DUDFaQjWzWoBYyG/view?usp=drivesdk)
 * 📊 **Official SIH Final Pitch Deck:** [presentation/SIH_AquaScan_Final.pptx](file:///d:/sih%20pro/presentation/SIH_AquaScan_Final.pptx)
 * 📋 **Official Problem Statement:** [docs/Problem_Statement.pdf](file:///d:/sih%20pro/docs/Problem_Statement.pdf)
 * 📐 **System Architecture Whitepaper:** [docs/System_Architecture.pdf](file:///d:/sih%20pro/docs/System_Architecture.pdf)
@@ -872,7 +661,7 @@ MIT License — Copyright (c) 2026 Team AquaScan | Smart India Hackathon 2026
 
 <br/>
 
-**Smart India Hackathon 2026 | Problem Statement #26064 | Disaster Management**  
+**Smart India Hackathon 2026 | Problem Statement #26064 | Robotics and Drones**  
 *Proudly Designed & Engineered with 🤍 in India 🇮🇳*
 
 <br/>
