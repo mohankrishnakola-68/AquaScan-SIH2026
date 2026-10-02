@@ -81,7 +81,7 @@
   <g transform="translate(1090, 260)">
     <circle cx="0" cy="0" r="5" fill="#2ed573" filter="url(#softGlow)" />
     <circle cx="0" cy="0" r="12" fill="none" stroke="#2ed573" stroke-width="1" />
-    <text x="12" y="4" font-family="'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#7bed9f">AQUASCAN SENSOR NODE</text>
+    <text x="-145" y="4" font-family="'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#7bed9f">AQUASCAN SENSOR NODE</text>
   </g>
 
   <!-- Left Header Pill (SIH 2026 Badge) -->
@@ -118,21 +118,21 @@
     <!-- Badge 1 -->
     <rect x="0" y="0" width="165" height="58" rx="10" fill="#07182c" stroke="#2ed573" stroke-width="1.5" />
     <text x="16" y="22" font-family="'Segoe UI', Roboto, sans-serif" font-size="10" fill="#94a3b8" font-weight="700">TARGET UNIT BOM</text>
-    <text x="16" y="46" font-family="'Segoe UI', Roboto, sans-serif" font-size="20" fill="#2ed573" font-weight="900">&lt; ₹15,000 INR</text>
+    <text x="16" y="46" font-family="'Segoe UI', Roboto, sans-serif" font-size="20" fill="#2ed573" font-weight="900">&lt; ₹40,000 INR</text>
 
     <!-- Badge 2 -->
     <rect x="180" y="0" width="180" height="58" rx="10" fill="#07182c" stroke="#00d2d3" stroke-width="1.5" />
     <text x="16" y="22" transform="translate(180, 0)" font-family="'Segoe UI', Roboto, sans-serif" font-size="10" fill="#94a3b8" font-weight="700">TARGET WORKING DEPTH</text>
-    <text x="16" y="46" transform="translate(180, 0)" font-family="'Segoe UI', Roboto, sans-serif" font-size="20" fill="#00f2fe" font-weight="900">0 – 10 Meters</text>
+    <text x="16" y="46" transform="translate(180, 0)" font-family="'Segoe UI', Roboto, sans-serif" font-size="20" fill="#00f2fe" font-weight="900">500m – 6,000m</text>
 
     <!-- Badge 3 -->
     <rect x="375" y="0" width="195" height="58" rx="10" fill="#07182c" stroke="#54a0ff" stroke-width="1.5" />
     <text x="16" y="22" transform="translate(375, 0)" font-family="'Segoe UI', Roboto, sans-serif" font-size="10" fill="#94a3b8" font-weight="700">ELECTROMAGNETIC SENSING</text>
-    <text x="16" y="46" transform="translate(375, 0)" font-family="'Segoe UI', Roboto, sans-serif" font-size="18" fill="#54a0ff" font-weight="900">Pulse Induction (PI)</text>
+    <text x="16" y="46" transform="translate(375, 0)" font-family="'Segoe UI', Roboto, sans-serif" font-size="18" fill="#54a0ff" font-weight="900">TEM + Self-Potential</text>
 
     <!-- Badge 4 -->
     <rect x="585" y="0" width="165" height="58" rx="10" fill="#07182c" stroke="#ff9f43" stroke-width="1.5" />
     <text x="16" y="22" transform="translate(585, 0)" font-family="'Segoe UI', Roboto, sans-serif" font-size="10" fill="#94a3b8" font-weight="700">SURFACE TELEMETRY</text>
-    <text x="16" y="46" transform="translate(585, 0)" font-family="'Segoe UI', Roboto, sans-serif" font-size="19" fill="#ff9f43" font-weight="900">LoRa 915 MHz</text>
+    <text x="16" y="46" transform="translate(585, 0)" font-family="'Segoe UI', Roboto, sans-serif" font-size="19" fill="#ff9f43" font-weight="900">LoRa + GNSS Fix</text>
   </g>
 </svg>
