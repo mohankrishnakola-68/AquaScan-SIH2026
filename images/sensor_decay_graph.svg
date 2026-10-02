@@ -71,16 +71,16 @@
     BACK-EMF SPIKE
   </text>
 
-  <!-- Waveform 1: Saltwater / Mineral Fast Decay (Red/Orange curve) -->
+  <!-- Waveform 1: Saltwater / Silt Background Fast Decay (Red/Orange curve) -->
   <path d="M 230 110 Q 250 220, 290 238 L 940 240" fill="none" stroke="#ff4757" stroke-width="2.5" filter="url(#neonRed)" />
   <text x="320" y="220" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#ff6b81">
-    Saltwater &amp; Mineral Decay: τ ≈ 1–2 µs (Rapid Decay)
+    Saltwater &amp; Pelagic Silt: &tau; &lt; 15 &mu;s (Rapid Dissipation)
   </text>
 
-  <!-- Waveform 2: Submerged Metallic Target Eddy Decay (Cyan glowing curve) -->
+  <!-- Waveform 2: Polymetallic Nodule Eddy Decay (Cyan glowing curve) -->
   <path d="M 230 110 Q 300 130, 420 160 T 650 210 T 920 238" fill="none" stroke="url(#metalGrad)" stroke-width="3.5" filter="url(#neonCyan)" />
-  <text x="640" y="150" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#00f2fe">
-    ⚡ Buried Metallic Hazard: τ ≈ 30–80 µs (Sustained Decay)
+  <text x="560" y="150" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#00f2fe">
+    ⚡ Polymetallic Nodule Target: &tau; &gt; 50 &mu;s (Sustained Decay)
   </text>
 
   <!-- Gate 1 Sampling Window (Early: 15-25 us) -->

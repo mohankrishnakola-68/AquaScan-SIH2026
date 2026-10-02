@@ -76,12 +76,12 @@
   <g transform="translate(950, 140)">
     <circle cx="0" cy="0" r="6" fill="#ff4757" filter="url(#softGlow)" />
     <circle cx="0" cy="0" r="14" fill="none" stroke="#ff4757" stroke-width="1.5" stroke-dasharray="3,3" />
-    <text x="14" y="4" font-family="'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="800" fill="#ff6b81">TARGET BLIP [FERROUS METALLIC DEBRIS]</text>
+    <text x="14" y="4" font-family="'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="800" fill="#ff6b81">TARGET BLIP [POLYMETALLIC NODULE FIELD]</text>
   </g>
   <g transform="translate(1090, 260)">
     <circle cx="0" cy="0" r="5" fill="#2ed573" filter="url(#softGlow)" />
     <circle cx="0" cy="0" r="12" fill="none" stroke="#2ed573" stroke-width="1" />
-    <text x="12" y="4" font-family="'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#7bed9f">AQUASCAN AUV POSITION</text>
+    <text x="12" y="4" font-family="'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#7bed9f">AQUASCAN SENSOR NODE</text>
   </g>
 
   <!-- Left Header Pill (SIH 2026 Badge) -->
@@ -107,10 +107,10 @@
 
   <!-- Description paragraph -->
   <text x="60" y="238" font-family="'Segoe UI', Roboto, sans-serif" font-size="14" fill="#cbd5e1" font-weight="400">
-    Autonomous Underwater Vehicle (AUV) &amp; Pulse Induction Sensor Platform for Sub-Bed Hazard Reconnaissance,
+    Deployable Ocean-Bottom Sensor (OBS) &amp; Pulse Induction + Self-Potential Platform for
   </text>
   <text x="60" y="260" font-family="'Segoe UI', Roboto, sans-serif" font-size="14" fill="#94a3b8" font-weight="400">
-    Sediment Clutter Rejection, Shallow-Water Disaster Management, and Coastal Resource Exploration.
+    Deep-Sea Polymetallic Nodule Mapping, Hydrothermal Sulphide Detection, and MoES Deep Ocean Exploration.
   </text>
 
   <!-- Metric Badges Row (Bottom) -->
