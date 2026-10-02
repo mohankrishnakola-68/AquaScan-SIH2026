@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="images/banner.svg" alt="AquaScan Header Banner" width="100%"/>
+<img src="images/banner.svg?raw=true&v=4" alt="AquaScan Header Banner" width="100%"/>
 
 <br/>
 
@@ -54,7 +54,7 @@ Traditional deep-sea prospecting relies on heavy Remotely Operated Vehicles (ROV
 <br/>
 
 <div align="center">
-  <img src="images/bathymetry_card.svg" alt="Bathymetry Exploration Zone" width="95%"/>
+  <img src="images/bathymetry_card.svg?raw=true&v=4" alt="Bathymetry Exploration Zone" width="95%"/>
 </div>
 
 ---
@@ -96,7 +96,7 @@ Standard terrestrial metal detectors fail underwater because high-salinity seawa
 * Sampling during a delayed gate window ($35\ \mu\text{s} - 1.2\ \text{ms}$) completely bypasses seawater conductivity noise.
 
 <div align="center">
-  <img src="images/sensor_decay_graph.svg" alt="TEM Decay Graph" width="90%"/>
+  <img src="images/sensor_decay_graph.svg?raw=true&v=4" alt="TEM Decay Graph" width="90%"/>
 </div>
 
 ### 2. Natural Self-Potential (SP) Redox Sensing
@@ -129,7 +129,7 @@ Standard terrestrial metal detectors fail underwater because high-salinity seawa
 <br/>
 
 <div align="center">
-  <img src="images/cost_comparison.svg" alt="Cost Comparison vs Commercial OBS" width="90%"/>
+  <img src="images/cost_comparison.svg?raw=true&v=4" alt="Cost Comparison vs Commercial OBS" width="90%"/>
 </div>
 
 ---
