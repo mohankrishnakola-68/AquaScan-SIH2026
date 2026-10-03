@@ -161,8 +161,8 @@ The repository includes complete production-grade source code:
 | S.No | Member Name | Role / Responsibility | Domain Focus |
 | :---: | :--- | :--- | :--- |
 | **1** | **MLSNS LAKSHMI** | **Mentor** | Technical Guidance, Research Review & Strategy |
-| **2** | **S. Pravallika** | **Project Manager & Team Leader** | Project Coordination, System Architecture & Documentation |
-| **3** | **K. Mohan Krishna** | **Research & Documentation Lead** | Marine Domain Research, Literature Review & SIH Deliverables |
+| **2** | **K. Mohan Krishna** | **Project Manager & Team Leader** | Project Coordination, System Architecture & Documentation |
+| **3** | **S. Pravallika** | **Research & Documentation Lead** | Marine Domain Research, Literature Review & SIH Deliverables |
 | **4** | **K. Vamsi Dhar** | **Embedded Systems Engineer** | Firmware Architecture, State Machine & LoRa Telemetry |
 | **5** | **G. Kavya** | **Electronics & PCB Design Engineer** | Transient EM Coil Driver, Analog Front-End & Burn-Wire Circuit |
 | **6** | **G. Chandhra Sekhar**| **Mechanical & CAD Design Engineer** | Pressure Hull Design, Dual O-Ring Sealing & Hydrodynamics |
